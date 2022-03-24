@@ -39,9 +39,8 @@ public class Student {
     private Integer age;
 
     // constructor
-    public Student(Long id, String firstName, String lastName,
+    public Student(String firstName, String lastName,
                    String email, Integer age) {
-        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
